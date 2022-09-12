@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Accordion</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <h1 class="heading">CSS only Accordions</h1>
+    <div class="container">
+      <div class="accordion">
+        <!-- acoordion itself -->
+        <div>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbo"
+            class="accordion_input"
+          />
+          <label for="checkbo" class="accordion_label">
+            <span>Titles 1 </span>
+            <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+          </label>
+          <div class="accordion_content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quam, sint a distinctio itaque rem at necessitatibus,
+              dignissimos vero dicta vitae. Nesciunt nam, soluta minima minus
+              vero facere.
+            </p>
+          </div>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+            class="accordion_input"
+          />
+          <label for="checkbox" class="accordion_label">
+            <span>Title 2 </span>
+            <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+          </label>
+          <div class="accordion_content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quam, sint a distinctio itaque rem at necessitatibus,
+              dignissimos vero dicta vitae. Nesciunt nam, soluta minima minus
+              vero facere.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
